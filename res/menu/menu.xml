@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_choose_map_type"
+        android:title="@string/menu_choose_map_type"/>
+    <item
+        android:id="@+id/menu_load_route"
+        android:title="@string/menu_load_route"/>
+    <item
+        android:id="@+id/menu_select_route_points"
+        android:title="@string/menu_select_route_points"/>
+    <item
+        android:id="@+id/menu_change_offline_map"
+        android:title="@string/menu_change_offline_map"/>
+    <item
+        android:id="@+id/menu_select_zone_for_storage"
+        android:title="@string/menu_select_zone_for_storage"/>
+    <item
+        android:id="@+id/menu_save_current_route"
+        android:title="@string/menu_save_current_route"/>
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:padding="25dp" >
+
+    <EditText
+        android:id="@+id/edit_text_kml_filename"
+        android:layout_width="161dp"
+        android:layout_height="match_parent"
+        android:hint="@string/hint_kml_filename"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_confirm_kml_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:lines="1"
+        android:text="@string/button_kml_filename" />
+
+</LinearLayout>

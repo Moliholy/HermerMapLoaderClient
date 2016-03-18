@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="selection_rectangle">#333366FF</color>
+    <color name="selection_rectangle_stroke">#FF3366FF</color>
+    <color name="black">#FF000000</color>
+    <color name="progressbar">#11CCCCCC</color>
+    <color name="default_layout">#FFDBDBDB</color>
+    <color name="white">#FF898989</color>
+    <color name="page_indicator">#FFA0A0A0</color>
+    <color name="page_indicator_footer">#FFD8D8D8</color>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/register_competitor_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:contentDescription="@string/register_competitor_image_content_description"
+            android:onClick="loadImage"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_contact_picture_2" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_competitor_name_label" />
+
+            <EditText
+                android:id="@+id/register_competitor_name_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_competitor_surname_label" />
+
+            <EditText
+                android:id="@+id/register_competitor_surname_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_competitor_email_label" />
+
+            <EditText
+                android:id="@+id/register_competitor_email_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailSubject" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_competitor_password_label" />
+
+            <EditText
+                android:id="@+id/register_competitor_password_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:onClick="registerCompetitor"
+                android:paddingBottom="30dp"
+                android:paddingTop="30dp"
+                android:text="@string/register_competitor_confirm_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

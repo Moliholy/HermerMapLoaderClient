@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/molina/loadmaps/EventTrackingActivity.java" />
+    </issue>
+    <issue id="InlinedApi">
+        <ignore path="src/com/molina/utils/AsyncTaskHelper.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/molina/utils/AsyncTaskHelper.java" />
+    </issue>
+    <issue id="UseSparseArrays">
+        <ignore path="src/com/molina/serverconnection/ServerConnection.java" />
+    </issue>
+</lint>

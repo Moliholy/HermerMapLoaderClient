@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_choose_map_type"
+        android:icon="@drawable/ic_menu_mapmode"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_enable_location"
+        android:icon="@drawable/ic_menu_mylocation"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/ic_menu_moreoverflow"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_load_route"
+                android:icon="@drawable/ic_menu_archive"
+                android:showAsAction="always"
+                android:title="@string/menu_load_route"/>
+            <item
+                android:id="@+id/menu_select_route_points"
+                android:icon="@drawable/ic_menu_goto"
+                android:showAsAction="always"
+                android:title="@string/menu_select_route_points"/>
+            <item
+                android:id="@+id/menu_select_zone_for_storage"
+                android:icon="@drawable/ic_menu_crop"
+                android:showAsAction="always"
+                android:title="@string/menu_select_zone_for_storage"/>
+            <item
+                android:id="@+id/menu_save_current_route"
+                android:icon="@drawable/ic_menu_save"
+                android:showAsAction="always"
+                android:title="@string/menu_save_current_route"/>
+            <item
+                android:id="@+id/menu_clear"
+                android:icon="@drawable/ic_menu_close_clear_cancel"
+                android:title="@string/menu_clear"
+                android:showAsAction="always"/>
+        </menu>
+    </item>
+
+</menu>

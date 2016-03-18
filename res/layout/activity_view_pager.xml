@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.molina.loadmaps">
+
+    <com.viewpagerindicator.TitlePageIndicator
+        android:id="@+id/indicator"
+        android:background="@color/page_indicator"
+        app:footerColor="@color/page_indicator_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:background="@color/abs__background_holo_light"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

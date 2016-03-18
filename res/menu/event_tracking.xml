@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_choose_map_type"
+        android:icon="@drawable/ic_menu_mapmode"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_enable_location"
+        android:icon="@drawable/ic_menu_mylocation"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_visualize_competitors"
+        android:icon="@drawable/ic_menu_allfriends"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_stop_sending_data"
+        android:icon="@drawable/ic_menu_cancel_upload"
+        android:showAsAction="always"/>
+
+</menu>

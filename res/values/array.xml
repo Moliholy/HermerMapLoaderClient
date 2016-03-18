@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="map_type">
+        <item>@string/map_type_normal</item>
+        <item>@string/map_type_hybrid</item>
+        <item>@string/map_type_satellite</item>
+        <item>@string/map_type_terrain</item>
+        <!-- <item>@string/map_type_none</item> -->
+    </array>
+    <array name="route_type">
+        <item>@string/route_type_walking</item>
+        <item>@string/route_type_driving</item>
+        <item>@string/route_type_bicycling</item>
+        <item>@string/route_type_transit</item>
+    </array>
+
+</resources>
